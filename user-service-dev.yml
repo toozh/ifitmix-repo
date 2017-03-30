@@ -1,0 +1,13 @@
+server:
+  port: 23112
+eureka:
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 10
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+    metadataMap:
+      cluster: USER-SERVICE
+
+#      uri: mongodb://127.0.0.1:27017/business
+version: test_v1.0

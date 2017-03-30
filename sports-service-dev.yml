@@ -1,0 +1,15 @@
+server:
+  port: 23111
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/business
+eureka:
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 10
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+    metadataMap:
+      cluster: SPORTS-SERVICE

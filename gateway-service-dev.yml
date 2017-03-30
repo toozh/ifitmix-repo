@@ -1,0 +1,20 @@
+server:
+  port: 9000
+
+zuul:
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+
+  routes:
+    sports-service:
+      path: /**/user/**
+      serviceId: user-service
+      stringPrefix: false
+      sersitiveHeaders:
+    user-service:
+      path: /**/user/**
+      serviceId: user-service
+      stringPrefix: false
+      sersitiveHeaders:
