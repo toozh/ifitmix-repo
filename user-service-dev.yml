@@ -10,4 +10,4 @@ eureka:
       cluster: USER-SERVICE
 
 #      uri: mongodb://127.0.0.1:27017/business
-version: test_v1.0
+version: test_v2.0
