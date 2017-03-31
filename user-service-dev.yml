@@ -34,4 +34,4 @@ spring:
               sync: true
               batchTimeout: 0
 
-version: test_v3.0
+version: test_v_bus/refresh
