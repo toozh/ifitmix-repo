@@ -9,8 +9,8 @@ zuul:
 
   routes:
     sports-service:
-      path: /**/user/**
-      serviceId: user-service
+      path: /**/sports/**
+      serviceId: sports-service
       stringPrefix: false
       sersitiveHeaders:
     user-service:
