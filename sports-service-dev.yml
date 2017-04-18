@@ -5,6 +5,11 @@ spring:
   data:
     mongodb:
       uri: mongodb://127.0.0.1:27017/business
+  cloud:
+    stream:
+      kafka:
+        binder:
+          zkNodes: 10.10.8.238:2181
 eureka:
   instance:
     preferIpAddress: true
