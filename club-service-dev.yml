@@ -36,3 +36,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://10.10.8.238:8761/eureka/
+
+
+# 系统参数配置
+APP_CLUB_MAX_MEMBERS: 50
