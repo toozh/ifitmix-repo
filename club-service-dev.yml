@@ -39,4 +39,7 @@ eureka:
 
 
 # 系统参数配置
+# 俱乐部最大人数
 APP_CLUB_MAX_MEMBERS: 50
+# 置顶俱乐部ID
+APP_CLUB_TOP_CLUB: 527
