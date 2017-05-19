@@ -23,3 +23,8 @@ zuul:
       serviceId: club-service
       stringPrefix: false
       sersitiveHeaders:
+    auth-service:
+      path: /uaa/**
+      serviceId: auth-service
+      stringPrefix: false
+      sersitiveHeaders:
