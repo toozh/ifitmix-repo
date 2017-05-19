@@ -18,3 +18,8 @@ zuul:
       serviceId: user-service
       stringPrefix: false
       sersitiveHeaders:
+    club-service:
+      path: /**/club/**
+      serviceId: club-service
+      stringPrefix: false
+      sersitiveHeaders:
