@@ -24,7 +24,7 @@ zuul:
       stringPrefix: false
       sersitiveHeaders:
     auth-service:
-      path: /oauth/**
+      path: /**
       serviceId: auth-service
       stringPrefix: false
       sersitiveHeaders:
