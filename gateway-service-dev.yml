@@ -7,6 +7,11 @@ zuul:
     connect-timeout-millis: 20000
     socket-timeout-millis: 20000
   routes:
+    auth-service:
+      path: /uaa/**
+      serviceId: auth-service
+      stringPrefix: false
+      sersitiveHeaders:
     sports-service:
       path: /**/sports/**
       serviceId: sports
@@ -22,8 +27,4 @@ zuul:
       serviceId: club-service
       stringPrefix: false
       sersitiveHeaders:
-    auth-service:
-      path: /uaa/**
-      serviceId: auth-service
-      stringPrefix: false
-      sersitiveHeaders:
+
