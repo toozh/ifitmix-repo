@@ -1,3 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://10.10.8.238:27017/user
 server:
   port: 9000
 
