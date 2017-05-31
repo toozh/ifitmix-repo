@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://10.10.8.238:27017/user
+      uri: mongodb://10.10.8.238:27017/business
 server:
   port: 9000
 
