@@ -10,7 +10,7 @@ spring:
       kafka:
         binder:
           brokers: 10.10.8.238:9092
-          zkNodes: 10.10.8.238:2182,10.10.8.238:2183
+          zkNodes: 10.10.8.238:2181,10.10.8.238:2182,10.10.8.238:2183
           offsetUpdateTimeWindow: 10000
           #offsetUpdateCount: 0
           requiredAcks: 1
